@@ -930,8 +930,8 @@ img {
 }
 
 .avatar-initials {
-    width: 240px;
-    height: 240px;
+    width: 6em;
+    height: 6em;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--burgundy), var(--dark));
     display: flex;
@@ -1057,7 +1057,7 @@ img {
 }
 
 .review-time {
-    font-size: 0.65em;
+    font-size: 0.85em;
     color: var(--text-light);
 }
 
