@@ -1,0 +1,173 @@
+export const services = [
+  {
+    icon: '✦',
+    name: 'Regular Maintenance',
+    items: [
+      { name: 'Palmroll Retwist – Ears Length', price: '$80' },
+      { name: 'Palmroll Retwist – Neck Length', price: '$90' },
+      { name: 'Palmroll Retwist – Shoulder Length', price: '$100' },
+      { name: 'Palmroll Retwist – Shoulder Blades', price: '$120' },
+      { name: 'Palmroll Retwist – Mid-Back Length', price: '$150' },
+      { name: 'Interloc – Ear Length', price: '$85' },
+      { name: 'Interloc – Neck Length', price: '$95' },
+      { name: 'Interloc – Shoulder Length', price: '$105' },
+      { name: 'Interloc – Mid-Back', price: '$150' },
+      { name: 'Pop Locs (Separate Roots)', price: '$40' },
+      { name: 'Pop Retwist', price: '$120' },
+      { name: 'Extra New Growth', price: '$20' },
+      { name: 'Crochet Maintenance ($/h)', price: '$100' },
+    ],
+  },
+  {
+    icon: '◈',
+    name: 'Starter Locs',
+    items: [
+      { name: 'Two Strand Twist Starter', price: '$200' },
+      { name: 'Starter Coils', price: '$200' },
+      { name: 'Interloc Starter', price: '$200' },
+      { name: 'Freeloc Starter', price: '$150' },
+      { name: 'Starter on Straight/Curly Hair', price: '$349' },
+      { name: 'Backcomb Starter (Straight & Curly)', price: '$399' },
+      { name: 'Instant Loc (Crochet Method)', price: '$499' },
+      { name: 'Microlocs Starter', price: '$500' },
+      { name: 'Sisterlocs Retight', price: '$400' },
+      { name: 'Consultation (New Clients)', price: '$25' },
+    ],
+  },
+  {
+    icon: '◇',
+    name: 'Microlocs',
+    items: [
+      { name: 'Microlocs Neck Length', price: '$150' },
+      { name: 'Microlocs Shoulder Length (under 150 locs)', price: '$180' },
+      { name: 'Microlocs Shoulder/Neck (over 160 locs)', price: '$250' },
+    ],
+  },
+  {
+    icon: '△',
+    name: 'Locs Repair & Restoring',
+    items: [
+      { name: 'Repair (per loc)', price: '$5' },
+      { name: 'Reattach (per loc)', price: '$5' },
+      { name: 'Reattach (flat rate)', price: '$250' },
+      { name: 'Re-install', price: '$279' },
+      { name: 'Full Restoration', price: '$400' },
+      { name: 'Combine ($/h)', price: '$500' },
+      { name: 'Undo Locs', price: '$799' },
+    ],
+  },
+  {
+    icon: '✿',
+    name: 'Scalp Treatment',
+    items: [
+      { name: 'Deep Cleaning (Detox)', price: '$50' },
+      { name: 'Holistic Scalp Massage', price: '$25' },
+      { name: 'Protein Treatment', price: '$50' },
+      { name: 'Hot Oil Treatment', price: '$50' },
+      { name: 'Hydrating Treatment', price: '$50' },
+      { name: 'Force Et Volume', price: '$50' },
+    ],
+  },
+  {
+    icon: '◉',
+    name: 'Locs Care',
+    items: [
+      { name: 'Wash & Dry / Loc Wash with Retie', price: '$30' },
+      { name: 'Loc Steaming', price: '$50' },
+      { name: 'Herbal Locs Rinse', price: '$50' },
+      { name: 'Deep Conditioning', price: '$60' },
+      { name: 'Moisturizing Treatment', price: '$50' },
+      { name: 'Style With Retie', price: '$25' },
+      { name: 'Style No Retie', price: '$50' },
+    ],
+  },
+  {
+    icon: '◉',
+    name: 'Locs Extensions',
+    items: [
+      { name: 'Loc Extension Installation', price: '$250' },
+      { name: 'Bespoke Locs Extensions (Short)', price: '$300' },
+      { name: 'Bespoke Locs Extensions (Long)', price: '$500' },
+      { name: 'Loc Extensions Order', price: 'Quote' },
+      { name: 'Reattaching Extensions', price: '$200' },
+    ],
+  },
+  {
+    icon: '★',
+    name: 'Locs Care Plans (Neck to Shoulder Blades)',
+    items: [
+      { name: 'Essential Locs Care Plan', price: '$375' },
+      { name: 'Signature Locs Care Plan', price: '$725' },
+      { name: 'Elite Locs Care Plan', price: '$1,175' },
+    ],
+  },
+  {
+    icon: '◈',
+    name: 'Other',
+    items: [
+      { name: 'Consultation', price: '$25' },
+      { name: 'Housecall Consultation', price: '$50' },
+    ],
+  },
+];
+
+export const plans = [
+  {
+    badge: 'Popular',
+    badgeClass: '',
+    name: 'Essential',
+    price: '$375',
+    save: 'Save $75',
+    features: [
+      'Personalized routine guidance',
+      '3 professional retwists (style may be added)',
+      '3 cleansing washes',
+      'Personal consultation to plan all appointments in advance',
+      'Reminder text or call one week before each appointment',
+    ],
+    featured: false,
+  },
+  {
+    badge: 'Signature',
+    badgeClass: 'gold',
+    name: 'Signature',
+    price: '$725',
+    save: 'Save $125',
+    features: [
+      'Priority booking access',
+      '6 professional retwists (style may be added)',
+      '5 cleansing washes',
+      '1 steam treatment + ACV detox',
+      'Personal consultation to plan all appointments in advance',
+      'Reminder text or call one week before each appointment',
+    ],
+    featured: true,
+  },
+  {
+    badge: 'Elite',
+    badgeClass: 'elite',
+    name: 'Elite',
+    price: '$1,375',
+    save: 'Save $250',
+    features: [
+      'Unlimited maintenance sessions',
+      'Full scalp treatment program',
+      'VIP priority + house call option',
+      'Bespoke product recommendations',
+    ],
+    featured: false,
+  },
+];
+
+export const reviews = [
+  { initial: 'J', name: 'Josephine Lemy', time: 'Last week', text: 'Great Job, very professional' },
+  { initial: 'L', name: 'Loic L.', time: 'Last month', text: 'Meilleure service en ville' },
+  {
+    initial: 'S',
+    name: 'Skar',
+    time: 'Last month',
+    text: 'Super service!! De bons conseils, fait avec soin et précision!!! La coiffeuse prend son temps pour expliquer le processus ainsi que des conseils de routine.',
+  },
+  { initial: 'L', name: 'Lucky', time: '8 months ago', text: 'Hair neatly done and good customer service. I recommend to anyone!!!' },
+  { initial: 'D', name: 'Djibril Mbengue', time: '9 months ago', text: 'Très bon service et bonne conversation, je conseille ce salon à tout le monde' },
+];
