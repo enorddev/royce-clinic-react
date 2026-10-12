@@ -955,7 +955,7 @@ img {
 
 .team-title {
     font-family: var(--font-ui);
-    font-size: 0.65em;
+    font-size: 1.25em;
     letter-spacing: .12em;
     text-transform: uppercase;
     color: var(--burgundy-mid);
@@ -963,7 +963,7 @@ img {
 }
 
 .team-bio {
-    font-size: 15px;
+    font-size: 1em;
     color: var(--text-light);
     font-style: italic;
     line-height: 1.8;
@@ -1269,7 +1269,7 @@ img {
 
 .ci-value {
     font-family: var(--font-ui);
-    font-size: 15px;
+    font-size: 1.1em;
     color: var(--dark);
 }
 
@@ -1342,7 +1342,7 @@ a.ci-value:hover {
 
 .pay-badge {
     font-family: var(--font-ui);
-    font-size: 11px;
+    font-size: 1em;
     font-weight: 500;
     padding: 5px 10px;
     background: var(--white);
